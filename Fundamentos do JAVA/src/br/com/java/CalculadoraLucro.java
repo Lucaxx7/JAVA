@@ -18,7 +18,7 @@ public class CalculadoraLucro {
 		venda = custo + ((custo * lucro) / 100);
 		//saida
 		System.out.println("Preço de venda: " + venda);
-
+			
 	}
 
 }

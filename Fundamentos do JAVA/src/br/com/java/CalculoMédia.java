@@ -18,7 +18,7 @@ public class CalculoMédia {
 		nota2 = teclado.nextFloat();
 		//processamento
 		media = (nota1+ nota2) / 2;
-		//saida
+		// saida
 		// + concatena(junta) um texto com o conteudo da variavel media
 		System.out.println("media final: " + media);
 	}

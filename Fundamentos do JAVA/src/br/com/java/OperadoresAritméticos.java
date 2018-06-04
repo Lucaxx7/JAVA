@@ -30,7 +30,7 @@ public class OperadoresAritméticos {
 		// Decremento y-- ( equivale a y = y - 1)
 		y--;
 		System.out.println("y--" + y);
-		
+				
 		}
 		
 

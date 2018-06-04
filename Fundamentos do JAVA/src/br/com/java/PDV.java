@@ -20,9 +20,8 @@ public class PDV {
 		//saida
 		troco = ( valorpago - total);
 		System.out.println("Troco: " + troco);
-				
-		
-		
+					
+	
 		
 	}
 
