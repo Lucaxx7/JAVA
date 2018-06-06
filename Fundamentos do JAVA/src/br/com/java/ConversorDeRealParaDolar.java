@@ -8,11 +8,11 @@ public class ConversorDeRealParaDolar {
 		double dolar, real;
 		dolar = 3.73;
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("Digite o valor do Real: ");
+		System.out.print("Digite o valor do Dólar: ");
 		real = teclado.nextDouble();
 		real = real * dolar;
 		System.out.println("Valor do Dólar: " + 3.73 );
-		System.out.println("Valor do Real em Dólar: " + real );
+		System.out.println("Valor do Dólar em Real: " + real );
 
 	}
 
