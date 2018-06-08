@@ -1,0 +1,27 @@
+package testes;
+
+import java.util.Scanner;
+
+public class teste1 {
+
+	public static void main(String[] args) {
+		// entrada
+		double posicao;
+		System.out.println("Digite a posição do time: ");
+		Scanner teclado = new Scanner(System.in);
+		posicao = teclado.nextDouble();
+		// processamento
+		
+		if (posicao < 7) {
+			System.out.println("O time classicado para a libertadores");
+		} else if (posicao > 6 && posicao < 16) {
+			
+		// saída
+			System.out.println("classificado para a sul-americana");
+			
+
+		} else {
+			System.out.println("Rebaixado");
+		}
+
+	}
