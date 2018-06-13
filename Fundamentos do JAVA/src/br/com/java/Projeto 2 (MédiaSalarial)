@@ -20,7 +20,7 @@ public class MediaSalarial {
 		media = (pai + mae + filho + filha) / 4;
 		// saída
 		System.out.println("Média: " + media);
-		if (media < 933) {
+		if (media < 1800) {
 			System.out.println("Você é apto a ganhar uma bolsa");
 		} else {
 			System.out.println("Você não é apto a ganhar uma bolsa");
