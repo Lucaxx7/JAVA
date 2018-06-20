@@ -1,0 +1,26 @@
+package br.com.java;
+
+import java.util.Scanner;
+
+public class CalculadoraDeServiços {
+
+	public static void main(String[] args) {
+		double renumeracao, servico, custo, horas, total, estimativa;
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("__________________Calculadora de serviços____________________ ");
+		System.out.println("");
+		System.out.println("Renumeração mensal: ");
+		renumeracao = teclado.nextDouble();
+		System.out.println("Custo Operacional mensal: ");
+		custo = teclado.nextDouble();
+		System.out.println("Carga horária mensal de trabalho: ");
+		horas = teclado.nextDouble();
+		servico = (renumeracao + (renumeracao * 0.3) + custo + (renumeracao * 0.2)) / horas;
+		System.out.println("Valor da hora de servilo: + serviço " + servico);
+		System.out.println("");
+		System.out.println("");
+		System.out.println("Estimativa de horas de serviço: ");
+		estimativa = teclado.nextDouble();
+		total = estimativa * servico;
+		System.out.println("Valor a ser cobrado deste cliente: " + total);
+		
