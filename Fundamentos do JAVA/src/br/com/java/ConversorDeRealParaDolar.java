@@ -6,13 +6,13 @@ public class ConversorDeRealParaDolar {
 
 	public static void main(String[] args) {
 		double dolar, real;
-		dolar = 3.73;
 		Scanner teclado = new Scanner(System.in);
-		System.out.print("Digite o valor do Dólar: ");
+		dolar = teclado.nextDouble();
+		System.out.print("Digite o valor do DÃ³lar: ");
 		real = teclado.nextDouble();
 		real = real * dolar;
-		System.out.println("Valor do Dólar: " + 3.73 );
-		System.out.println("Valor do Dólar em Real: " + real );
+		System.out.println("Valor do DÃ³lar: " + 3.73 );
+		System.out.println("Valor do DÃ³lar em Real: " + real );
 
 	}
 
